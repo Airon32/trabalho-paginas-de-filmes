@@ -85,12 +85,6 @@ body {
   height: auto;
 }
 
-p {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: black;
-}
-
 .filmes {
   display: flex;
   flex-wrap: wrap;
@@ -205,3 +199,4 @@ p {
   background-position: center;
   border-radius: 8px;
 }
+
