@@ -1,0 +1,267 @@
+.texto {
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+  background-color: rgba(153, 8, 3, 0.9);
+}
+
+.fora {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  border: 1.5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 30px;
+}
+
+.fora div {
+  margin: auto;
+  padding: auto;
+}
+
+.barraPesquisa {
+  border: 1.5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  background-color: rgba(51, 42, 41, 0.9);
+}
+
+.catalogo {
+  font-size: 25px;
+}
+
+.subcatalogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  font-size: 25px;
+  margin: 30px;
+  background-color: rgba(51, 42, 41, 0.9);
+}
+
+.menu a {
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  margin: 100px;
+}
+
+.item1 {
+  border: 3px solid black;
+  text-align: center;
+  width: 100px;
+  height: auto;
+}
+.item2 {
+  border: 3px solid black;
+  text-align: center;
+  width: 100px;
+  height: auto;
+}
+.item3 {
+  border: 3px solid black;
+  text-align: center;
+  width: 100px;
+  height: auto;
+}
+.item4 {
+  border: 3px solid black;
+  text-align: center;
+  width: 100px;
+  height: auto;
+}
+.item5 {
+  border: 3px solid black;
+  text-align: center;
+  width: 100px;
+  height: auto;
+}
+
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+.filmes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+  background-color: rgba(51, 42, 41, 0.9);
+}
+
+.filmes div {
+  border: 3px solid black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filmes div:nth-child(even) {
+  margin-top: 35px;
+  padding: 0 auto;
+}
+
+.item1 {
+  border: 3px solid black;
+  width: 200px;
+  height: 400px;
+  background-image: url(https://cdn.cineart.com.br/vibezz_373532021.jpeg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.item2 {
+  border: 3px solid black;
+  width: 200px;
+  height: 400px;
+  background-image: url(https://cinemaisarte.com.br/wp-content/uploads/2025/05/Poster-pre-196x336_c.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.item3 {
+  border: 3px solid black;
+  width: 200px;
+  height: 400px;
+  background-image: url(https://cinema10.com.br/upload/filmes/filmes_16312_coringa-2-poster.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.item4 {
+  border: 3px solid black;
+  width: 200px;
+  height: 400px;
+  background-image: url(https://gsobmidia.com.br/uploads/filmes/3524/15800-medio_1750860770.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.item5 {
+  border: 3px solid black;
+  width: 200px;
+  height: 400px;
+  background-image: url(https://static.claquete.com.br/fotos/filmes/poster/14168_medio.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.item6 {
+  border: 3px solid black;
+  width: 200px;
+  height: 400px;
+  background-image: url(https://www.cinesercla.com.br/Uploads/upload/thumbnailer/d38b1556-ee1f-4bfb-b81c-5abab7510052_w320.jpeg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.item7 {
+  border: 3px solid black;
+  width: 200px;
+  height: 400px;
+  background-image: url(https://www.cinemasteresina.com.br/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbW9FIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7354fd8a8ba76acaae25fd8dfbf2b540a0bda036/superman.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.item8 {
+  border: 3px solid black;
+  width: 200px;
+  height: 400px;
+  background-image: url(https://cinema10.com.br/upload/filmes/filmes_6020_croods2_5.jpg?default=poster);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.item9 {
+  border: 3px solid black;
+  width: 200px;
+  height: 400px;
+  background-image: url(https://ingresso-a.akamaihd.net/img/cinema/cartaz/21332-cartaz.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.item10 {
+  border: 3px solid black;
+  width: 200px;
+  height: 400px;
+  background-image: url(https://br.web.img3.acsta.net/c_310_420/img/9b/06/9b06b9bb3934c8d1bed47d86c1a0c174.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.item11 {
+  border: 3px solid black;
+  width: 200px;
+  height: 400px;
+  background-image: url(https://br.web.img3.acsta.net/img/3e/7c/3e7cc540e829d7cc7c03cea526dbf7bb.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.item12 {
+  border: 3px solid black;
+  width: 200px;
+  height: 400px;
+  background-image: url(https://bahiaeconomica.com.br/wp/wp-content/uploads/2025/04/WhatsApp-Image-2025-04-16-at-12.49.21.jpeg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.item13 {
+  border: 3px solid black;
+  width: 200px;
+  height: 400px;
+  background-image: url(https://cdn.cineart.com.br/vibezz_571586050.jpeg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.item14 {
+  border: 3px solid black;
+  width: 200px;
+  height: 400px;
+  background-image: url(https://gsobmidia.com.br/uploads/filmes/3300/15126-medio_1742320117.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.item15 {
+  border: 3px solid black;
+  width: 200px;
+  height: 400px;
+  background-image: url(https://ogimg.infoglobo.com.br/in/24168479-708-b9f/FT450A/cidade-de-deus.png?posicaoFoto1);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
